@@ -1,6 +1,6 @@
 from random import choice
 
-class Person:
+class Person(object):
     def __init__(self, name):
         self.name = name
 
@@ -9,9 +9,8 @@ class Person:
 
 def main():
     people = [Person('Jane'), Person('Jill'), Person('Bob')]
-    person = choice(people)
-
-    print(person)
+    random_person = choice(people)
+    print(random_person)
 
 if __name__ == '__main__':
     main()
