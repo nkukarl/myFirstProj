@@ -1,4 +1,4 @@
-def fibo(n):
+def fibo_gen(n):
     if n <= 0:
         raise ValueError
     if n == 1 or n == 2:
@@ -11,7 +11,7 @@ def fibo(n):
 
 def main():
     for i in range(1, 15):
-        print(i, fibo(i))
+        print(i, fibo_gen(i))
 
 if __name__ == '__main__':
     main()
