@@ -6,7 +6,7 @@ When markdown plugins are installed in PyCharm, you will be able to toggle betwe
 It also supports multiple line code mode such as:
 ```javascript
 myFunc = () => {
-    return 'Hello world'
+    return 'Hello world';
 }
 ```
 
